@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div className='flex justify-between items-center bg-red-400 text-black p-4 h-[10vh]'>
+        <div className='flex justify-between items-center text-black p-4 h-[10vh]'>
             <div>
                 fa
             </div>
@@ -13,7 +13,7 @@ function Navbar() {
                         HOME
                     </span>
                 </Link>
-                <Link to="/">
+                <Link to="/work">
                     <span className='font-medium  px-2 py-1'>
                         PROJECTS
                     </span>
@@ -29,17 +29,17 @@ function Navbar() {
                     </span>
                 </Link>
 
-                <Link to="/else">
+                <Link to="/studio">
                     <span className='font-medium px-2 py-1'>
                         STUDIO
                     </span>
                 </Link>
-                <Link to="/else">
+                <Link to="/blog">
                     <span className='font-medium px-2 py-1'>
                         NEWS
                     </span>
                 </Link>
-                <Link to="/else">
+                <Link to="/">
                     <span className='font-medium px-2 py-1'>
                         CONTACT
                     </span>
